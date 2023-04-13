@@ -1,2 +1,2 @@
 # components
-Components Exercise
+Website Components Exercise
