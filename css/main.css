@@ -48,3 +48,8 @@ body {
 img {
     display: block;
 }
+
+.components__img {
+    max-width: initial;
+    overflow-x: auto;
+}
