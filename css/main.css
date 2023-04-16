@@ -52,6 +52,12 @@ body {
     overflow-x: auto;
 }
 
+.comp--alt {
+    background-color: #eee;
+    margin-top: 8rem;
+    padding-top: 1rem;
+}
+
 img {
     width: initial;
     min-width: initial;
@@ -61,7 +67,7 @@ img {
 
 .component__code {
     border: 1px solid #ccc;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 h1,
@@ -136,4 +142,40 @@ sup {
 
 a>.component__p1 {
     margin: .25rem 0;
+}
+
+.hero--img {
+    border-radius: 50%;
+}
+
+
+/* Hero Code */
+
+.component--gradient {
+    background-image: linear-gradient(45deg, rgb(29, 10, 40), rgb(64, 49, 82));
+}
+
+.main-nav__items {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    place-content: center center;
+    list-style-type: none;
+}
+
+.main-nav__link {
+    color: var(--color-white);
+    text-decoration: none;
+    margin: 1.5rem;
+}
+
+.header--component {
+    display: flex;
+    flex-direction: row;
+    place-content: start center;
+    place-items: start center;
+}
+
+.main-nav__logo--image {
+    padding-right: 8rem;
 }
