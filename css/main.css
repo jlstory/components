@@ -55,11 +55,20 @@ img {
     width: initial;
     min-width: initial;
     max-width: initial;
+    display: block;
 }
 
 .component__code {
     border: 1px solid #ccc;
     max-width: 50%;
+}
+
+h1,
+h2,
+h3,
+h5 {
+    letter-spacing: 0.08rem;
+    color: var(--color-black);
 }
 
 h1 {
@@ -75,10 +84,16 @@ h3 {
     font-size: .88rem;
 }
 
+
+/* Headers for this Content */
+
 h4 {
     font-size: 2.35rem;
     line-height: 5rem;
 }
+
+
+/* //// */
 
 h5 {
     font-size: 1.88rem;
@@ -87,6 +102,10 @@ h5 {
 
 p {
     font-size: .88rem;
+}
+
+sup {
+    font-size: 1.9rem;
 }
 
 .feature__quote {
