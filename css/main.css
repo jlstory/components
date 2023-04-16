@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'VAG Rounded Std';
     src: url('../fonts/VAGRoundedStd-Light.woff2') format('woff2'), url('../fonts/VAGRoundedStd-Light.woff') format('woff');
-    font-weight: 300;
+    font-weight: 1000;
     font-style: normal;
     font-display: swap;
 }
@@ -27,6 +27,7 @@ html {
 :root {
     --font-sans: 'VAG Rounded Std', sans-serif;
     --color-black: #000;
+    --color-gray: #454545;
     --color-white: #fff;
     --color-blue: #0672ad;
     --color-bluelight: #88bcd8;
@@ -35,39 +36,39 @@ html {
 body {
     font-family: var(--font-sans);
     overflow-x: hidden;
-}
-
-img {
-    width: 50%;
-    display: block;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    letter-spacing: .1rem;
 }
 
 
 /* Components */
 
-.components img {
-    max-width: initial;
-}
-
-.components__img {
+.component__img {
+    max-width: 50%;
+    display: block;
     border: 1px solid #ccc;
     overflow-x: auto;
 }
 
-.component__code {
-    border: 1px solid #ccc;
+img {
+    width: initial;
+    min-width: initial;
+    max-width: initial;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+.component__code {
+    border: 1px solid #ccc;
+    max-width: 50%;
+}
+
+h1 {
     line-height: 1.2rem;
 }
 
 h2 {
     font-size: 3.75rem;
+    line-height: 1.2rem;
 }
 
 h3 {
@@ -75,7 +76,13 @@ h3 {
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 2.35rem;
+    line-height: 5rem;
+}
+
+h5 {
+    font-size: 1.88rem;
+    margin: 1.5rem 0;
 }
 
 p {
@@ -84,4 +91,29 @@ p {
 
 .feature__quote {
     font-size: 1rem;
+}
+
+.component__date,
+.component__p1 {
+    color: var(--color-gray);
+    line-height: 1.25rem;
+}
+
+.component__link,
+.component__link:visited {
+    text-decoration: none;
+}
+
+.component__link:hover,
+.component__link:focus {
+    text-decoration: underline;
+    text-decoration-color: var(--color-gray);
+}
+
+.component__links {
+    margin-top: 1.5rem;
+}
+
+a>.component__p1 {
+    margin: .25rem 0;
 }
