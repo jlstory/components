@@ -166,7 +166,7 @@ a>.component__p1 {
 .main-nav__link {
     color: var(--color-white);
     text-decoration: none;
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 .header--component {
@@ -177,5 +177,5 @@ a>.component__p1 {
 }
 
 .main-nav__logo--image {
-    padding-right: 8rem;
+    padding-right: 10rem;
 }
