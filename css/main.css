@@ -306,3 +306,16 @@ a>.component__p1 {
     margin: -3rem 0 0;
     padding: 0 6rem 2rem;
 }
+
+.plugins__link--txt:hover,
+.plugins__link--txt:focus {
+    color: var(--color-bluelight);
+    cursor: pointer;
+}
+
+.carousel__controls:hover,
+.carousel__controls:focus {
+    color: var(--color-bluelight);
+    border: 2px solid var(--color-bluelight);
+    cursor: pointer !important;
+}
