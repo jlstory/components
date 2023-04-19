@@ -180,3 +180,23 @@ a>.component__p1 {
     position: relative;
     right: 10rem;
 }
+
+.hero {
+    display: flex;
+}
+
+.hero__img--wrap {
+    display: block;
+    margin: 0 auto;
+}
+
+.hero__img {
+    display: block;
+    max-width: 50%;
+    margin: -4rem auto 2rem;
+}
+
+.component__code--nob {
+    border: none;
+    max-width: 100%;
+}
