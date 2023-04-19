@@ -121,6 +121,11 @@ sup {
     font-size: 1.9rem;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: none;
+}
+
 .feature__quote {
     font-size: 1rem;
 }
@@ -233,4 +238,23 @@ a>.component__p1 {
 
 .hero__cta>sup {
     font-size: .6rem;
+}
+
+
+/* Carousel Code */
+
+.carousel-wrap {
+    background-color: var(--color-white);
+}
+
+.plugins-nav__items {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    place-content: center center;
+    place-items: end;
+}
+
+.plugins-nav__item {
+    margin: 3rem 0 2rem;
 }
