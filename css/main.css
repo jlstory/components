@@ -243,8 +243,13 @@ a>.component__p1 {
 
 /* Carousel Code */
 
-.carousel-wrap {
+.plugins-nav {
     background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center center;
+    gap: 60px;
 }
 
 .plugins-nav__items {
@@ -253,6 +258,7 @@ a>.component__p1 {
     gap: 50px;
     place-content: center center;
     place-items: end;
+    max-width: 60rem;
 }
 
 .plugins-nav__item {
@@ -279,4 +285,15 @@ a>.component__p1 {
 
 .carousel__img {
     box-shadow: 2px 2px 15px var(--color-gray);
+    max-width: 110%;
+}
+
+.carousel__controls {
+    color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    margin-left: 1rem;
 }
