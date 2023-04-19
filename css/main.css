@@ -255,14 +255,15 @@ a>.component__p1 {
 .plugins-nav__items {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 75px;
     place-content: center center;
     place-items: end;
     max-width: 60rem;
+    padding-left: 0;
 }
 
 .plugins-nav__item {
-    margin: 3rem 0 2rem;
+    margin: 3rem 0 0;
 }
 
 .plugins-nav__link {
@@ -271,6 +272,7 @@ a>.component__p1 {
 
 .carousel__img-title {
     margin-bottom: 0;
+    margin-top: 2rem;
 }
 
 .plugins__link--txt {
@@ -296,4 +298,11 @@ a>.component__p1 {
     font-size: 1.7rem;
     font-weight: lighter;
     margin-left: 1rem;
+}
+
+.link--cta {
+    background-color: var(--color-white);
+    text-align: right;
+    margin: -3rem 0 0;
+    padding: 0 6rem 2rem;
 }
