@@ -258,3 +258,25 @@ a>.component__p1 {
 .plugins-nav__item {
     margin: 3rem 0 2rem;
 }
+
+.plugins-nav__link {
+    text-decoration: none;
+}
+
+.carousel__img-title {
+    margin-bottom: 0;
+}
+
+.plugins__link--txt {
+    color: var(--color-blue);
+    margin-top: .25rem;
+}
+
+.plugins__link--txt:hover,
+.plugins__link--txt:focus {
+    color: var(--color-bluelight);
+}
+
+.carousel__img {
+    box-shadow: 2px 2px 15px var(--color-gray);
+}
