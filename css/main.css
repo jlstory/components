@@ -174,9 +174,10 @@ a>.component__p1 {
 .main-nav__items {
     display: flex;
     flex-direction: row;
-    padding: 0;
+    padding: .5rem 0 0;
     place-content: center center;
     list-style-type: none;
+    margin-left: -4rem;
 }
 
 .main-nav__link {
@@ -194,7 +195,7 @@ a>.component__p1 {
 
 .main-nav__logo--image {
     position: relative;
-    right: 11rem;
+    right: 13rem;
 }
 
 .hero {
@@ -213,8 +214,8 @@ a>.component__p1 {
 
 .hero__img {
     display: block;
-    max-width: 47%;
-    margin: 0;
+    max-width: 49%;
+    margin: 0 0 0 3rem;
 }
 
 .component__code--nob {
