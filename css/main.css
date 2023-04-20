@@ -371,7 +371,7 @@ a>.component__p1 {
 .feature__link {
     text-decoration: none;
     font-weight: lighter;
-    color: #0772ad;
+    color: var(--color-blue);
 }
 
 .feature__link:hover,
