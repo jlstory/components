@@ -383,3 +383,39 @@ a>.component__p1 {
 
 
 /* Quicklinks Code */
+
+.quicklinks-nav__items {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.quicklinks-nav__item {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    margin: 3rem 0 1rem 0;
+}
+
+.quicklinks__img {
+    border-radius: 50%;
+    border: 2px solid var(--color-blue);
+    text-align: center;
+}
+
+.quicklinks__link--txt,
+.quicklinks-nav__link {
+    color: var(--color-blue);
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.quicklinks-nav__item:hover,
+.quicklinks-nav__item:focus {
+    color: var(--color-bluelight);
+    border-color: var(--color-bluelight);
+    cursor: pointer;
+}
