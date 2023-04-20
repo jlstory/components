@@ -338,7 +338,7 @@ a>.component__p1 {
 
 .feature__card {
     color: var(--color-white);
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, .28);
     border-radius: 15px;
     min-width: 456px !important;
     width: 18vw;
