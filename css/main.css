@@ -444,3 +444,11 @@ a>.component__p1 {
 .quicklinks__img:hover {
     opacity: .32;
 }
+
+
+/* Footer Code */
+
+.footer__moles {
+    display: flex !important;
+    flex-direction: row;
+}
