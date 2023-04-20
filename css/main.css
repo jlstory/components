@@ -254,6 +254,11 @@ a>.component__p1 {
     font-size: .6rem;
 }
 
+.hero__cta:hover,
+.hero__cta:focus {
+    background-color: rgba(0, 0, 0, .18)
+}
+
 
 /* Carousel Code */
 
