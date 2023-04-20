@@ -322,3 +322,58 @@ a>.component__p1 {
     border: 2px solid var(--color-bluelight);
     cursor: pointer !important;
 }
+
+
+/*  Featured Artist Code  */
+
+.feature {
+    background-image: url(../components/img/artist/feature-artist.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90rem;
+    height: 38rem;
+    position: relative;
+}
+
+.feature__card {
+    color: var(--color-white);
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 15px;
+    min-width: 456px !important;
+    width: 18vw;
+    padding: 1rem;
+    margin: auto 10rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.feature__card-title {
+    color: var(--color-white);
+    font-weight: lighter;
+}
+
+.feature__card-artist {
+    color: var(--color-white);
+    font-weight: lighter;
+    text-align: left;
+    margin: 2rem 0 1.5rem;
+}
+
+.feature__card-quote {
+    font-weight: lighter;
+    line-height: 1.4rem;
+    padding: 0;
+    margin: 0 auto 3rem;
+}
+
+.feature__link {
+    text-decoration: none;
+    font-weight: lighter;
+    color: #0772ad;
+}
+
+.feature__link:hover {
+    color: #78bef0;
+}
