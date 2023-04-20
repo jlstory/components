@@ -328,7 +328,7 @@ a>.component__p1 {
 
 .feature {
     background-image: url(../components/img/artist/feature-artist.jpg);
-    background-position: left bottom;
+    background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 90rem;
