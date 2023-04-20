@@ -374,6 +374,7 @@ a>.component__p1 {
     color: #0772ad;
 }
 
-.feature__link:hover {
-    color: #78bef0;
+.feature__link:hover,
+.feature__link:focus {
+    color: var(--color-bluelight);
 }
