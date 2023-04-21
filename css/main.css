@@ -494,9 +494,10 @@ a>.component__p1 {
 
 .footer__component {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: space-between;
     align-items: start;
+    gap: 5rem;
 }
 
 .footer-nav__items {
