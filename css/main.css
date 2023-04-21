@@ -447,3 +447,23 @@ a>.component__p1 {
 
 
 /* Footer Code */
+
+.footer__wrap {
+    background-color: var(--color-white);
+}
+
+.footer__component {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.footer-nav__items {
+    text-decoration: none;
+    padding-left: 0;
+}
+
+.center {
+    text-align: center;
+}
