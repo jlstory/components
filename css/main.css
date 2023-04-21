@@ -457,12 +457,16 @@ a>.component__p1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    align-items: center;
+    align-items: start;
 }
 
 .footer-nav__items {
     text-decoration: none;
     padding-left: 0;
+}
+
+.footer-nav--spacer {
+    margin-bottom: .4rem;
 }
 
 .footnote__center {
