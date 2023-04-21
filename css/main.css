@@ -450,6 +450,7 @@ a>.component__p1 {
 
 .footer__wrap {
     background-color: var(--color-white);
+    padding: 2rem 10rem .5rem;
 }
 
 .footer__component {
@@ -464,6 +465,52 @@ a>.component__p1 {
     padding-left: 0;
 }
 
-.center {
+.footnote__center {
     text-align: center;
+    margin-top: 3rem;
+}
+
+.form__imput {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: .5rem;
+    width: 13.88rem;
+}
+
+.form__submit {
+    color: #ccc;
+    background-image: linear-gradient(to bottom, rgb(25, 135, 195), rgb(6, 103, 156));
+    border-radius: 5px;
+    transform: scale(1, 1.5);
+    border: none;
+    padding: .15rem .45rem
+}
+
+.form__submit:hover,
+.form__submit:focus {
+    background-image: linear-gradient(to bottom, rgb(23, 124, 179), rgb(4, 84, 127));
+}
+
+.form__label {
+    margin-top: 2rem;
+    margin-bottom: .3rem;
+}
+
+.compnent__date {
+    font-size: .8rem !important;
+}
+
+.footer__card>.news__p,
+.footer__card>.component__p1 {
+    margin-top: .4rem;
+}
+
+.link--blue {
+    color: var(--color-blue);
+}
+
+.link--blue:hover,
+.link--blue:focus {
+    color: var(--color-bluelight);
+    cursor: pointer;
 }
