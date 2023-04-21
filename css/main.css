@@ -80,6 +80,7 @@ main {
 
 .psuedo-nav>a:hover {
     line-height: 1rem;
+    text-shadow: 0 0 8px #fff;
 }
 
 
