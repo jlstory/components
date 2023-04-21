@@ -565,3 +565,9 @@ form {
     color: var(--color-bluelight);
     cursor: pointer;
 }
+
+@media (max-width:2050px) {
+    .psuedo-nav {
+        display: none;
+    }
+}
