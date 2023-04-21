@@ -497,7 +497,8 @@ a>.component__p1 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     justify-items: space-between;
     align-items: start;
-    gap: 5rem;
+    gap: 6rem;
+    margin-left: .5rem;
 }
 
 .footer-nav__items {
