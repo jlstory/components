@@ -497,8 +497,13 @@ a>.component__p1 {
     background-image: linear-gradient(to bottom, rgb(23, 124, 179), rgb(4, 84, 127));
 }
 
-.form__label {
+form {
     margin-top: 2rem;
+}
+
+.form__label {
+    font-size: .8rem;
+    margin-top: 5rem;
     margin-bottom: .3rem;
 }
 
