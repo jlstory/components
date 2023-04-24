@@ -1,0 +1,24 @@
+/* CSS Document */
+
+
+/* Upload Test */
+
+
+/**
+* Components Website
+* Developed By: Josh Story
+**/
+
+body {
+    padding: 0;
+    top: 0;
+}
+
+main {
+    margin-top: 0;
+    top: 0;
+}
+
+.component__code {
+    border: none;
+}
