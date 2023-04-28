@@ -566,6 +566,9 @@ form {
     cursor: pointer;
 }
 
+
+/* Quicknav Hide for smaller wcreen width */
+
 @media (max-width:2050px) {
     .psuedo-nav {
         display: none;
