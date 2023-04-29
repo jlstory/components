@@ -567,6 +567,77 @@ form {
 }
 
 
+/* Drop Down for Nav  */
+
+body {
+    padding: 0;
+    top: 0;
+}
+
+main {
+    margin-top: 0;
+    top: 0;
+}
+
+.component__code {
+    border: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+li.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content--block {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.dropdown-content a:hover {
+    color: #0672ad;
+    background-color: transparent;
+    text-shadow: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.blue {
+    color: #0672ad !important;
+    text-shadow: none !important;
+}
+
+.blue:hover {
+    color: #88bcd8 !important;
+    text-shadow: none !important;
+}
+
+
 /* Quicknav Hide for smaller wcreen width */
 
 @media (max-width:2050px) {
